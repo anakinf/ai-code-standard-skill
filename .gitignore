@@ -1,4 +1,2 @@
-# 忽略克隆的开源基座（体积大，本地 sync-bases.sh 拉取）
-references/bases/
 .DS_Store
 *.log

@@ -19,22 +19,13 @@
 | `b5-laravel` | ✅ | [verified-b5-laravel.md](verified-b5-laravel.md) | Laravel · `app/Http/Controllers/Admin` |
 | `yisha` | ✅ | [verified-yisha.md](verified-yisha.md) | ASP.NET MVC **Area** + BLL/Service |
 
-## 生产参考（非克隆基座）
-
-| 文档 | 用途 |
-|------|------|
-| [reference-java-monolith-redis.md](reference-java-monolith-redis.md) | **越权 + Redis** 生产对照 |
-
-本地路径：`/Users/fengshufang/Documents/工作/2022/淘淘收卡/server`（只读对照，不提交进 skill 仓库）
-
 ## Agent 强制步骤
 
 1. 读 [references/bases/README.md](../references/bases/README.md) + `verified-{base-id}.md`  
 2. **未指定基座** → [base-selection-prompt.md](../base-selection-prompt.md) 让用户选后再继续  
 3. 在 **`references/bases/{base-id}/`** 打开对照 Demo  
 4. [cross-cutting-constraints.md](../cross-cutting-constraints.md) §2 越权 + §3 Redis  
-5. 涉及回调/锁 → [reference-java-monolith-redis.md](reference-java-monolith-redis.md)  
-6. **禁止**凭记忆写路径；**禁止**大改 framework/system/core
+5. **禁止**凭记忆写路径；**禁止**大改 framework/system/core；**禁止**引用 skill 外项目路径
 
 ## 常见选型修正
 

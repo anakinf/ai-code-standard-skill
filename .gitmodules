@@ -1,0 +1,33 @@
+[submodule "references/bases/b5-laravel"]
+	path = references/bases/b5-laravel
+	url = https://gitee.com/b5net/b5-laravel-cmf.git
+[submodule "references/bases/django-vue-admin"]
+	path = references/bases/django-vue-admin
+	url = https://gitee.com/liqianglog/django-vue-admin.git
+[submodule "references/bases/gfast"]
+	path = references/bases/gfast
+	url = https://gitee.com/tiger1103/gfast.git
+[submodule "references/bases/ruoyi-activiti"]
+	path = references/bases/ruoyi-activiti
+	url = https://gitee.com/smell2/ruoyi-vue-activiti.git
+[submodule "references/bases/ruoyi-cloud"]
+	path = references/bases/ruoyi-cloud
+	url = https://gitee.com/y_project/RuoYi-Cloud.git
+[submodule "references/bases/ruoyi-process"]
+	path = references/bases/ruoyi-process
+	url = https://gitee.com/calvinhwang123/RuoYi-Process.git
+[submodule "references/bases/ruoyi-react"]
+	path = references/bases/ruoyi-react
+	url = https://gitee.com/whiteshader/ruoyi-react.git
+[submodule "references/bases/ruoyi"]
+	path = references/bases/ruoyi
+	url = https://gitee.com/y_project/RuoYi.git
+[submodule "references/bases/yi-netcore"]
+	path = references/bases/yi-netcore
+	url = https://gitee.com/ccnetcore/yi.git
+[submodule "references/bases/yisha"]
+	path = references/bases/yisha
+	url = https://gitee.com/liukuo362573/YiShaAdmin.git
+[submodule "references/bases/yjgo"]
+	path = references/bases/yjgo
+	url = https://github.com/guolingege/yjgo.git

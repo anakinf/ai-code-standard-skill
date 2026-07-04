@@ -45,9 +45,9 @@ ruoyi-{biz}/
 | `xf-app/.../app/controller` | 若有 C 端：独立 `controller/app` 或 `ruoyi-api` |
 | 禁止改 `xf-system` | 禁止改 `ruoyi-system` 域逻辑 |
 
-### 外部回调 + Redis（生产参考）
+### 外部回调 + Redis
 
-对照 [reference-java-monolith-redis.md](distill/reference-java-monolith-redis.md)：越权、`CacheConstants`、锁 A/B/C/D。**无 MQ 时用 DB Job + Quartz**；仅流量/多机不够再上 MQ（§4）。
+见 [cross-cutting-constraints.md](cross-cutting-constraints.md) §2.1、§3：越权、`CacheConstants`、锁 A/B/C/D。**无 MQ 时用 DB Job + 基座调度**；仅流量/多机不够再上 MQ（§4）。
 
 ---
 

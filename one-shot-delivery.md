@@ -67,7 +67,7 @@
 
 - [ ] §4 MQ 或 DB Job + 调度；消费幂等（见 code-security）
 
-对照：[reference-java-monolith-redis.md](distill/reference-java-monolith-redis.md)
+深度审计：[checklist-core](../code-security-skill/checklist-core.md)
 
 ## 禁止作为「已完成」的情况
 
