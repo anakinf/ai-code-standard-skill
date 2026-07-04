@@ -1,0 +1,68 @@
+{
+  "ruoyi": {
+    "url": "https://gitee.com/y_project/RuoYi.git",
+    "commit": "0d42679",
+    "synced_at": "2026-07-04T14:43:06+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/ruoyi"
+  },
+  "gfast": {
+    "url": "https://gitee.com/tiger1103/gfast.git",
+    "commit": "1a7b01d",
+    "synced_at": "2026-07-04T14:43:15+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/gfast"
+  },
+  "django-vue-admin": {
+    "url": "https://gitee.com/liqianglog/django-vue-admin.git",
+    "commit": "8fc8a58",
+    "synced_at": "2026-07-04T15:00:05+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/django-vue-admin"
+  },
+  "b5-laravel": {
+    "url": "https://gitee.com/b5net/b5-laravel-cmf.git",
+    "commit": "8be349a",
+    "synced_at": "2026-07-04T15:00:40+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/b5-laravel"
+  },
+  "yi-netcore": {
+    "url": "https://gitee.com/ccnetcore/yi.git",
+    "commit": "b8802e7",
+    "synced_at": "2026-07-04T15:01:02+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/yi-netcore"
+  },
+  "yjgo": {
+    "url": "https://github.com/guolingege/yjgo.git",
+    "commit": "cd0af50",
+    "synced_at": "2026-07-04T15:03:25+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/yjgo"
+  },
+  "ruoyi-cloud": {
+    "url": "https://gitee.com/y_project/RuoYi-Cloud.git",
+    "commit": "b532093",
+    "synced_at": "2026-07-04T15:03:27+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/ruoyi-cloud"
+  },
+  "ruoyi-react": {
+    "url": "https://gitee.com/whiteshader/ruoyi-react.git",
+    "commit": "2ed0389",
+    "synced_at": "2026-07-04T15:03:29+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/ruoyi-react"
+  },
+  "ruoyi-activiti": {
+    "url": "https://gitee.com/smell2/ruoyi-vue-activiti.git",
+    "commit": "79f6ced",
+    "synced_at": "2026-07-04T15:03:34+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/ruoyi-activiti"
+  },
+  "ruoyi-process": {
+    "url": "https://gitee.com/calvinhwang123/RuoYi-Process.git",
+    "commit": "255ebe5",
+    "synced_at": "2026-07-04T15:03:40+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/ruoyi-process"
+  },
+  "yisha": {
+    "url": "https://gitee.com/liukuo362573/YiShaAdmin.git",
+    "commit": "8881dd9",
+    "synced_at": "2026-07-04T15:29:34+08:00",
+    "path": "/Users/fengshufang/Documents/工作/2026/skill/ai-code-standard-skill/references/bases/yisha"
+  }
+}
