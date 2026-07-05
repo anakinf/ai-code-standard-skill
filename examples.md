@@ -22,9 +22,11 @@
 3. 新建 `ruoyi-modules/ruoyi-order`，generator 或手建 CRUD
 4. `sql/2026-07-04.sql` + menu SQL
 5. `ruoyi-ui/src/views/order/` + api + 路由
-6. `AI_CHANGELOG.md` + `AI_API.md`
-7. `mvn compile` + one-shot-delivery 自检
-8. `@code-security-audit` 增量扫 order 模块
+6. `README.md` + `CONTRIBUTING.md` + `SECURITY.md` + `CHANGELOG.md`
+7. `doc/ARCHITECTURE.md` + `doc/FUNCTIONS.md` + `doc/DATABASE_SCHEMA.md` + `doc/DATABASE_DESIGN.md`
+8. `AI_CHANGELOG.md` + `AI_API.md` + `AI_DATABASE.md` + `AI_PROJECT.md`
+9. `mvn compile` + one-shot-delivery 自检
+10. `@code-security-audit` 增量扫 order 模块
 
 **关键思想**：订单列表不能信 query 里的 `userId`；详情/改状态先 load 订单再比对归属；支付/回调类操作加 D 类幂等锁和 DB UNIQUE。
 
@@ -68,6 +70,9 @@ bash .../ai-code-standard-skill/scripts/sync-bases.sh django-vue-admin
 ## 反例（不要这样）
 
 - 只生成 Entity/Mapper，说「前端你们自己做」
+- 只生成代码，不生成 README、架构文档、功能文档、数据库 schema/设计文档
+- 改了表字段、接口、权限或配置，却没有同步 DATABASE_SCHEMA、AI_API、README、CHANGELOG
+- 为了做业务顺手重构基座 core/system/framework
 - 把业务代码全塞进 `ruoyi-system` 的 `SysUserController`
 - 未导入菜单就说「功能已完成」
 - 分两次对话：「这次先做表，下次做接口」

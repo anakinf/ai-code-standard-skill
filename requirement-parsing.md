@@ -71,6 +71,17 @@ pending → paid → shipped → done；禁止跳状态
 - [ ] 管理员可登录并完成 F01–Fn
 - [ ] 无权限账号 403
 - [ ] SQL 可重复执行或幂等
+
+## 10. 文档交付
+- [ ] README.md
+- [ ] CONTRIBUTING.md
+- [ ] SECURITY.md
+- [ ] CHANGELOG.md
+- [ ] doc/ARCHITECTURE.md
+- [ ] doc/FUNCTIONS.md
+- [ ] doc/DATABASE_SCHEMA.md
+- [ ] doc/DATABASE_DESIGN.md
+- [ ] AI_API.md / AI_DATABASE.md / AI_PROJECT.md / AI_CHANGELOG.md
 ```
 
 ## 解析规则
@@ -84,6 +95,8 @@ pending → paid → shipped → done；禁止跳状态
 7. **MQ / DB Job** → **仅** requirement 写明并发峰值或长时异步时规划（§4）
 8. **菜单/权限**不能只写页面路径；必须给出权限字、按钮粒度和 SQL/种子数据来源
 9. **验收标准**要能手工执行：账号、入口、动作、预期结果、无权限结果
+10. **文档交付**必须映射到最终代码：架构看模块，功能看页面/API，数据库 schema 看 SQL，README 看启动验收
+11. **AI 边界**必须写清：本轮做什么、不做什么、哪些核心基座文件禁止改、哪些变更会影响兼容
 
 ## 与 AI_RULE 第二条对齐
 
